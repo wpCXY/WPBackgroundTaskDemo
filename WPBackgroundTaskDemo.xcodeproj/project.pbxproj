@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA35BA031ECED83100A13B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BA021ECED83100A13B14 /* main.m */; };
+		AA35BA061ECED83100A13B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BA051ECED83100A13B14 /* AppDelegate.m */; };
+		AA35BA091ECED83100A13B14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BA081ECED83100A13B14 /* ViewController.m */; };
+		AA35BA0C1ECED83100A13B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA35BA0A1ECED83100A13B14 /* Main.storyboard */; };
+		AA35BA0E1ECED83100A13B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA35BA0D1ECED83100A13B14 /* Assets.xcassets */; };
+		AA35BA111ECED83100A13B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA35BA0F1ECED83100A13B14 /* LaunchScreen.storyboard */; };
+		AA35BA1C1ECED83200A13B14 /* WPBackgroundTaskDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BA1B1ECED83200A13B14 /* WPBackgroundTaskDemoTests.m */; };
+		AA35BA271ECED83200A13B14 /* WPBackgroundTaskDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BA261ECED83200A13B14 /* WPBackgroundTaskDemoUITests.m */; };
+		AA35BA371ECEE7D400A13B14 /* WPBackgroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BA361ECEE7D400A13B14 /* WPBackgroundManager.m */; };
+		AA35BA3A1ECEE80700A13B14 /* WPTaskBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AA35BA391ECEE80700A13B14 /* WPTaskBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA35BA181ECED83200A13B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA35B9F61ECED83100A13B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA35B9FD1ECED83100A13B14;
+			remoteInfo = WPBackgroundTaskDemo;
+		};
+		AA35BA231ECED83200A13B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA35B9F61ECED83100A13B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA35B9FD1ECED83100A13B14;
+			remoteInfo = WPBackgroundTaskDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA35B9FE1ECED83100A13B14 /* WPBackgroundTaskDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPBackgroundTaskDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA35BA021ECED83100A13B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA35BA041ECED83100A13B14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA35BA051ECED83100A13B14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA35BA071ECED83100A13B14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA35BA081ECED83100A13B14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA35BA0B1ECED83100A13B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA35BA0D1ECED83100A13B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA35BA101ECED83100A13B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA35BA121ECED83100A13B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA35BA171ECED83200A13B14 /* WPBackgroundTaskDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPBackgroundTaskDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA35BA1B1ECED83200A13B14 /* WPBackgroundTaskDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBackgroundTaskDemoTests.m; sourceTree = "<group>"; };
+		AA35BA1D1ECED83200A13B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA35BA221ECED83200A13B14 /* WPBackgroundTaskDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPBackgroundTaskDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA35BA261ECED83200A13B14 /* WPBackgroundTaskDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBackgroundTaskDemoUITests.m; sourceTree = "<group>"; };
+		AA35BA281ECED83200A13B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA35BA351ECEE7D400A13B14 /* WPBackgroundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPBackgroundManager.h; sourceTree = "<group>"; };
+		AA35BA361ECEE7D400A13B14 /* WPBackgroundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPBackgroundManager.m; sourceTree = "<group>"; };
+		AA35BA381ECEE80700A13B14 /* WPTaskBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPTaskBase.h; path = ../../WPTaskBase.h; sourceTree = "<group>"; };
+		AA35BA391ECEE80700A13B14 /* WPTaskBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPTaskBase.m; path = ../../WPTaskBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA35B9FB1ECED83100A13B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BA141ECED83200A13B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BA1F1ECED83200A13B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA35B9F51ECED83100A13B14 = {
+			isa = PBXGroup;
+			children = (
+				AA35BA001ECED83100A13B14 /* WPBackgroundTaskDemo */,
+				AA35BA1A1ECED83200A13B14 /* WPBackgroundTaskDemoTests */,
+				AA35BA251ECED83200A13B14 /* WPBackgroundTaskDemoUITests */,
+				AA35B9FF1ECED83100A13B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA35B9FF1ECED83100A13B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA35B9FE1ECED83100A13B14 /* WPBackgroundTaskDemo.app */,
+				AA35BA171ECED83200A13B14 /* WPBackgroundTaskDemoTests.xctest */,
+				AA35BA221ECED83200A13B14 /* WPBackgroundTaskDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA35BA001ECED83100A13B14 /* WPBackgroundTaskDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BA341ECEE72200A13B14 /* WPBackgroundManager */,
+				AA35BA041ECED83100A13B14 /* AppDelegate.h */,
+				AA35BA051ECED83100A13B14 /* AppDelegate.m */,
+				AA35BA071ECED83100A13B14 /* ViewController.h */,
+				AA35BA081ECED83100A13B14 /* ViewController.m */,
+				AA35BA0A1ECED83100A13B14 /* Main.storyboard */,
+				AA35BA0D1ECED83100A13B14 /* Assets.xcassets */,
+				AA35BA0F1ECED83100A13B14 /* LaunchScreen.storyboard */,
+				AA35BA121ECED83100A13B14 /* Info.plist */,
+				AA35BA011ECED83100A13B14 /* Supporting Files */,
+			);
+			path = WPBackgroundTaskDemo;
+			sourceTree = "<group>";
+		};
+		AA35BA011ECED83100A13B14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BA021ECED83100A13B14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA35BA1A1ECED83200A13B14 /* WPBackgroundTaskDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BA1B1ECED83200A13B14 /* WPBackgroundTaskDemoTests.m */,
+				AA35BA1D1ECED83200A13B14 /* Info.plist */,
+			);
+			path = WPBackgroundTaskDemoTests;
+			sourceTree = "<group>";
+		};
+		AA35BA251ECED83200A13B14 /* WPBackgroundTaskDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BA261ECED83200A13B14 /* WPBackgroundTaskDemoUITests.m */,
+				AA35BA281ECED83200A13B14 /* Info.plist */,
+			);
+			path = WPBackgroundTaskDemoUITests;
+			sourceTree = "<group>";
+		};
+		AA35BA341ECEE72200A13B14 /* WPBackgroundManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA35BA351ECEE7D400A13B14 /* WPBackgroundManager.h */,
+				AA35BA361ECEE7D400A13B14 /* WPBackgroundManager.m */,
+				AA35BA381ECEE80700A13B14 /* WPTaskBase.h */,
+				AA35BA391ECEE80700A13B14 /* WPTaskBase.m */,
+			);
+			path = WPBackgroundManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA35B9FD1ECED83100A13B14 /* WPBackgroundTaskDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA35BA2B1ECED83200A13B14 /* Build configuration list for PBXNativeTarget "WPBackgroundTaskDemo" */;
+			buildPhases = (
+				AA35B9FA1ECED83100A13B14 /* Sources */,
+				AA35B9FB1ECED83100A13B14 /* Frameworks */,
+				AA35B9FC1ECED83100A13B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPBackgroundTaskDemo;
+			productName = WPBackgroundTaskDemo;
+			productReference = AA35B9FE1ECED83100A13B14 /* WPBackgroundTaskDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA35BA161ECED83200A13B14 /* WPBackgroundTaskDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA35BA2E1ECED83200A13B14 /* Build configuration list for PBXNativeTarget "WPBackgroundTaskDemoTests" */;
+			buildPhases = (
+				AA35BA131ECED83200A13B14 /* Sources */,
+				AA35BA141ECED83200A13B14 /* Frameworks */,
+				AA35BA151ECED83200A13B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA35BA191ECED83200A13B14 /* PBXTargetDependency */,
+			);
+			name = WPBackgroundTaskDemoTests;
+			productName = WPBackgroundTaskDemoTests;
+			productReference = AA35BA171ECED83200A13B14 /* WPBackgroundTaskDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA35BA211ECED83200A13B14 /* WPBackgroundTaskDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA35BA311ECED83200A13B14 /* Build configuration list for PBXNativeTarget "WPBackgroundTaskDemoUITests" */;
+			buildPhases = (
+				AA35BA1E1ECED83200A13B14 /* Sources */,
+				AA35BA1F1ECED83200A13B14 /* Frameworks */,
+				AA35BA201ECED83200A13B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA35BA241ECED83200A13B14 /* PBXTargetDependency */,
+			);
+			name = WPBackgroundTaskDemoUITests;
+			productName = WPBackgroundTaskDemoUITests;
+			productReference = AA35BA221ECED83200A13B14 /* WPBackgroundTaskDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA35B9F61ECED83100A13B14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王鹏";
+				TargetAttributes = {
+					AA35B9FD1ECED83100A13B14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+					};
+					AA35BA161ECED83200A13B14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA35B9FD1ECED83100A13B14;
+					};
+					AA35BA211ECED83200A13B14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA35B9FD1ECED83100A13B14;
+					};
+				};
+			};
+			buildConfigurationList = AA35B9F91ECED83100A13B14 /* Build configuration list for PBXProject "WPBackgroundTaskDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA35B9F51ECED83100A13B14;
+			productRefGroup = AA35B9FF1ECED83100A13B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA35B9FD1ECED83100A13B14 /* WPBackgroundTaskDemo */,
+				AA35BA161ECED83200A13B14 /* WPBackgroundTaskDemoTests */,
+				AA35BA211ECED83200A13B14 /* WPBackgroundTaskDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA35B9FC1ECED83100A13B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BA111ECED83100A13B14 /* LaunchScreen.storyboard in Resources */,
+				AA35BA0E1ECED83100A13B14 /* Assets.xcassets in Resources */,
+				AA35BA0C1ECED83100A13B14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BA151ECED83200A13B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BA201ECED83200A13B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA35B9FA1ECED83100A13B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BA091ECED83100A13B14 /* ViewController.m in Sources */,
+				AA35BA061ECED83100A13B14 /* AppDelegate.m in Sources */,
+				AA35BA3A1ECEE80700A13B14 /* WPTaskBase.m in Sources */,
+				AA35BA371ECEE7D400A13B14 /* WPBackgroundManager.m in Sources */,
+				AA35BA031ECED83100A13B14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BA131ECED83200A13B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BA1C1ECED83200A13B14 /* WPBackgroundTaskDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA35BA1E1ECED83200A13B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA35BA271ECED83200A13B14 /* WPBackgroundTaskDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA35BA191ECED83200A13B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA35B9FD1ECED83100A13B14 /* WPBackgroundTaskDemo */;
+			targetProxy = AA35BA181ECED83200A13B14 /* PBXContainerItemProxy */;
+		};
+		AA35BA241ECED83200A13B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA35B9FD1ECED83100A13B14 /* WPBackgroundTaskDemo */;
+			targetProxy = AA35BA231ECED83200A13B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA35BA0A1ECED83100A13B14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA35BA0B1ECED83100A13B14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA35BA0F1ECED83100A13B14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA35BA101ECED83100A13B14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA35BA291ECED83200A13B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA35BA2A1ECED83200A13B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA35BA2C1ECED83200A13B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPBackgroundTaskDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPBackgroundTaskDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA35BA2D1ECED83200A13B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPBackgroundTaskDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPBackgroundTaskDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA35BA2F1ECED83200A13B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPBackgroundTaskDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPBackgroundTaskDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPBackgroundTaskDemo.app/WPBackgroundTaskDemo";
+			};
+			name = Debug;
+		};
+		AA35BA301ECED83200A13B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPBackgroundTaskDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPBackgroundTaskDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPBackgroundTaskDemo.app/WPBackgroundTaskDemo";
+			};
+			name = Release;
+		};
+		AA35BA321ECED83200A13B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPBackgroundTaskDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPBackgroundTaskDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPBackgroundTaskDemo;
+			};
+			name = Debug;
+		};
+		AA35BA331ECED83200A13B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPBackgroundTaskDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPBackgroundTaskDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPBackgroundTaskDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA35B9F91ECED83100A13B14 /* Build configuration list for PBXProject "WPBackgroundTaskDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BA291ECED83200A13B14 /* Debug */,
+				AA35BA2A1ECED83200A13B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA35BA2B1ECED83200A13B14 /* Build configuration list for PBXNativeTarget "WPBackgroundTaskDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BA2C1ECED83200A13B14 /* Debug */,
+				AA35BA2D1ECED83200A13B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA35BA2E1ECED83200A13B14 /* Build configuration list for PBXNativeTarget "WPBackgroundTaskDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BA2F1ECED83200A13B14 /* Debug */,
+				AA35BA301ECED83200A13B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA35BA311ECED83200A13B14 /* Build configuration list for PBXNativeTarget "WPBackgroundTaskDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35BA321ECED83200A13B14 /* Debug */,
+				AA35BA331ECED83200A13B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA35B9F61ECED83100A13B14 /* Project object */;
+}

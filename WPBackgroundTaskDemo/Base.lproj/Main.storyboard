@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2bw-ZQ-bAy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="EDc-r0-0wr">
+            <objects>
+                <navigationController id="2bw-ZQ-bAy" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QRF-bB-TVF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lTt-Sq-AYW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gw4-VW-bvu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1128" y="-258"/>
+        </scene>
+        <!--Root-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIk-Mo-bHP">
+                                <rect key="frame" x="157" y="318" width="60" height="30"/>
+                                <state key="normal" title="AddTask"/>
+                                <connections>
+                                    <action selector="addANewTask:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y6G-Tw-hHD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvy-Uv-w0c">
+                                <rect key="frame" x="160" y="356" width="54" height="30"/>
+                                <state key="normal" title="Destroy"/>
+                                <connections>
+                                    <action selector="destroy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YUz-zT-OQC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VIk-Mo-bHP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1js-ah-PZ9"/>
+                            <constraint firstItem="VIk-Mo-bHP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dup-gJ-PIu"/>
+                            <constraint firstItem="vvy-Uv-w0c" firstAttribute="top" secondItem="VIk-Mo-bHP" secondAttribute="bottom" constant="8" id="XNM-a9-ylf"/>
+                            <constraint firstItem="vvy-Uv-w0c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l2s-jb-Y2D"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Root" id="WhY-oB-pXL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-242" y="-259"/>
+        </scene>
+    </scenes>
+</document>
